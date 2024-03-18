@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* navbar */
+.navabar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navabar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navabar ul{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navabar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navabar ul  li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    height: 840px;
+    align-items: center;
+    color: rgb(245, 243, 241);
+}
+
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(me.jpg);
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    fill-opacity: -8;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    background-image: url('man.png');
+    background-size: cover;
+    background-position: cover;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+/* about section */
+#about{
+    display: flex;
+    flex-direction: column;
+   
+
+
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 28px;
+}
+#intro u2{
+    font-size: small;
+    margin-bottom: 0px;
+    font-family:  'Arial Narrow Bold';
+}
+#intro h3{
+    font-size: medium;
+    margin-bottom: 0px;
+    font-family:  'Arial Narrow Bold';
+}
+
+#intro a{
+    background: #212122;
+    padding: 10px 18px;
+    text-decoration:  none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
